@@ -3,7 +3,10 @@
     <div
       v-if="pokemon"
       class="
-        w-3/12
+        w-10/12
+        xl:w-3/12
+        lg:w-3/12
+        md:w-3/12
         m-auto
         bg-purple-100
         mt-4
@@ -41,7 +44,10 @@
           mt-10
           rounded-full
           bg-red-500
-          w-2/12
+          w-5/12
+          xl:w-2/12
+          lg:w-2/12
+          md:w-2/12
           h-8
           hover:bg-red-600
           active:bg-red-700
