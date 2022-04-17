@@ -4,7 +4,7 @@
       class="flex justify-center text-4xl text-green-500 font-bold"
       to="/"
     >
-      ALIA Pokemon
+      ALIA Pokemon <span class="text-xs">v.1.0</span>
     </router-link>
   </nav>
   <router-view />
