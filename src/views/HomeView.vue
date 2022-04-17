@@ -34,7 +34,7 @@ export default {
 
     function updatePokemon() {
       if (!state.text) {
-        return [];
+        return state.pokemons;
       }
 
       return state.pokemons.filter((pokemon) =>
